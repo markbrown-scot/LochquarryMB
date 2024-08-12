@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\CSS\\mainstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSS\\mainstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\CSS\\TextFormat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSS\\TextFormat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\StaffDetails.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StaffDetails.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\LandBased.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LandBased.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\WaterBased.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WaterBased.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\CustomerFeedback.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CustomerFeedback.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\RopeBased.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RopeBased.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\CSS\\PictFormat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSS\\PictFormat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaffDetails.html",
+              "DocumentMoniker": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\StaffDetails.html",
+              "RelativeDocumentMoniker": "StaffDetails.html",
+              "ToolTip": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\StaffDetails.html",
+              "RelativeToolTip": "StaffDetails.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-11T18:17:33.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RopeBased.html",
+              "DocumentMoniker": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\RopeBased.html",
+              "RelativeDocumentMoniker": "RopeBased.html",
+              "ToolTip": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\RopeBased.html",
+              "RelativeToolTip": "RopeBased.html",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-08T15:57:58.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerFeedback.html",
+              "DocumentMoniker": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\CustomerFeedback.html",
+              "RelativeDocumentMoniker": "CustomerFeedback.html",
+              "ToolTip": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\CustomerFeedback.html",
+              "RelativeToolTip": "CustomerFeedback.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-08T15:53:33.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WaterBased.html",
+              "DocumentMoniker": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\WaterBased.html",
+              "RelativeDocumentMoniker": "WaterBased.html",
+              "ToolTip": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\WaterBased.html",
+              "RelativeToolTip": "WaterBased.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-08T08:43:05.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LandBased.html",
+              "DocumentMoniker": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\LandBased.html",
+              "RelativeDocumentMoniker": "LandBased.html",
+              "ToolTip": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\LandBased.html",
+              "RelativeToolTip": "LandBased.html",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwAcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-06T09:41:40.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mainstyle.css",
+              "DocumentMoniker": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\CSS\\mainstyle.css",
+              "RelativeDocumentMoniker": "CSS\\mainstyle.css",
+              "ToolTip": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\CSS\\mainstyle.css",
+              "RelativeToolTip": "CSS\\mainstyle.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-06T08:52:25.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PictFormat.css",
+              "DocumentMoniker": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\CSS\\PictFormat.css",
+              "RelativeDocumentMoniker": "CSS\\PictFormat.css",
+              "ToolTip": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\CSS\\PictFormat.css",
+              "RelativeToolTip": "CSS\\PictFormat.css",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-06T08:49:07.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TextFormat.css",
+              "DocumentMoniker": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\CSS\\TextFormat.css",
+              "RelativeDocumentMoniker": "CSS\\TextFormat.css",
+              "ToolTip": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\CSS\\TextFormat.css",
+              "RelativeToolTip": "CSS\\TextFormat.css",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAAAIgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-06T08:46:40.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "O:\\CP-INFO\\OneDrive - Glasgow Clyde College\\Lochquarry\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-06T07:54:27.112Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

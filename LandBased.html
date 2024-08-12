@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="CSS/mainstyle.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/MenuBar.css" type="text/css" rel=" stylesheet" />
+    <link href="CSS/PictFormat.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/TextFormat.css" type="text/css" rel="stylesheet" />
+
+    <title>LochQuarry</title>
+
+</head>
+<body>
+    <img class="imgheader" src="Images/Header.jpg" alt="Lochquarry Header" />
+    <div class="container">
+        <!-- main page layout-->
+
+        <div class="header">
+            <div class="dropdown">
+                <!-- start of header -->
+                <a href="index.html">Home</a>
+                <a href="StaffDetails.html">Staff Details </a>
+                <button onclick="myFunction()" class="dropbtn">
+                    <!-- when the user clicks on activities -->
+                    Activities                                  <!-- the javscript funiction is called -->
+                </button>                                       <!-- to display dropdown menu -->
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="LandBased.html">Land Based</a>
+                    <a href="WaterBased.html">Water Based</a>
+                    <a href="RopeBased.html">Rope Based</a>
+                </div>
+                <a href="CustomerFeedback.html">Customer Feedback</a>
+            </div>
+
+            <h1> Land Based Activites </h1>
+            <script>
+                function myFunction() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
+                // the function displays a drodown menu whe the Activities link is clicked
+                // this procedure checks if the user has clicked outside the dropdown menu and closes it
+                window.onclick = function (event) {
+                    if (!event.target.matches('.dropbtn')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+            </script>
+        </div> <!-- End of header -->
+
+        <div class="content">
+            <img class="custpict" src="Images/beech.jpg" alt="Picture of a beach" />
+
+            <img class="landpicr" src="Images/Skye.jpg" alt="picture of hills from isle of Skye" /> <!-- Optimised Image-->
+            <h2 class="landheading"> Hill Walking </h2>
+            <p class="landtext">
+                From short walks around the site to Munro-bagging expeditions, Lochquarry has it all!
+                Walks can be tailored to suit any age or experience of groups and can last from one hour to all
+                day adventures.<br /> Max group size 12. Ages 6+
+            </p>
+
+            <img class="landpicr" src="Images/Archery_2.jpg" alt="picture of a person playing archery" />
+            <h2 class="landheading">Archery</h2>
+            <p class="landtext">
+                Are you the next Robin Hood? Learn to hold a bow and fire an arrow and take part in fast and fun
+                shootout competitions.<br /> Max group size 6. Ages 6+
+            </p>
+
+            <img class="landpicr" src="Images/Orienteering.jpg" alt="picture of Orienteering" />
+            <h2 class="landheading"> Orienteering</h2>
+            <p class="landtext">
+                Are you the next Robin Hood? Learn to hold a bow and fire an arrow and take part in fast and fun
+                shootout competitions. <br /> Max group size 6. Ages 6+
+            </p>
+
+            <img class="landpicr" src="Images/Axe.jpg" alt="picture of Axe Throwing" />
+            <h2 class="landheading"> Axe Throwing</h2>
+            <p class="landtext">
+                Take yourself back to a time of Vikings and have a go at throwing an axe. Try to hit
+                the target, better yet throw yourself a bullseye. <br /> Max group size 6. Ages 10+
+            </p>
+        </div>  <!--end of main content -->
+
+        <div class="footer">
+            <!-- Start of Footer-->
+            <p id="dt"></p>
+            <script>
+                document.getElementById("dt").style.margin = "25px 25px 25px 400px"  // sets the top, botttom, right and left margins
+                document.getElementById("dt").innerHTML = new Date();  // displays the current time and date
+            </script>
+            <img class="mooimg" src="Images/MooMoo.jpg" alt="Picture of a Highland Cow" />
+
+            <p class="textfooter">
+                Our activities are very popular with youth groups including Scouts and Guides.
+
+            </p>
+
+            <p class=" textfooter">
+                To book your next adventure at Lochquarry, please phone 01475 229 8311.
+            </p>
+            <img class="imgheader" src="Images/Header.jpg" alt="Lochquarry Header" />
+        </div> <!-- End of Footer -->
+
+    </div> <!-- end of page layout-->
+</body>
+</html>

@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="CSS/mainstyle.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/MenuBar.css" type="text/css" rel=" stylesheet" />
+    <link href="CSS/PictFormat.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/TextFormat.css" type="text/css" rel="stylesheet" />
+
+    <title>LochQuarry</title>
+
+</head>
+<body>
+    <div class="container">
+        <img class="imgheader" src="Images/Header.jpg" alt="Lochquarry Header" />
+        <div class="header"> <!-- Start of Heading  -->
+            <div class="dropdown">
+                <a href="StaffDetails.html">Staff Details </a>
+                <button onclick="myFunction()" class="dropbtn">   <!-- when the user clicks on activities -->
+                    Activities                                  <!-- the javscript funiction is called -->
+                </button>                                       <!-- to display dropdown menu -->
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="LandBased.html">Land Based</a>
+                    <a href="WaterBased.html">Water Based</a>
+                    <a href="RopeBased.html">Rope Based</a>
+                </div>
+                <a href="CustomerFeedback.html">Customer Feedback</a>
+            </div>
+
+            <h1> About Us</h1>
+                    <script>
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+            // the function displays a drodown menu whe the Activities link is clicked
+            // this procedure checks if the user has clicked outside the dropdown menu and closes it
+            window.onclick = function (event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }</script>
+
+    </div> <!-- End of Heading-->
+
+    <div class="content">
+        <!-- start of main content-->
+        <img class="custpict" src="Images/beech.jpg" alt="Picture of a beach" />  <!--Optimised Image-->
+        <p>
+            Lochquarry Outdoor Centre is set in acres of land in the heart of the majestic Argyll hills.
+            On our doorstep is not only magnificent scenery, but also a breath-taking selection of outdoor
+            and adventurous activities.
+        </p>
+        <br />
+        <p>
+            With activities designed to meet the needs of all ages and experiences of young people, Lochquarry
+            truly brings adventure to everyone
+
+        </p>
+        <h2> Land Based </h2>
+        <p> Visitors can take part in a wide range of land-based activities on and off site. </p>
+        <h2> Water Based </h2>
+        <p> Water-based activities all take place on Lochquarry itself. </p>
+        <h2> Rope Based </h2>
+        <p> All rope-based activities take place on site with full safety equipment provided.</p>
+
+
+    </div> <!-- End of main content-->
+
+    <div class="footer">
+        <!-- Start of Footer-->
+        <p id="dt"></p>
+        <script>
+            document.getElementById("dt").style.margin = "25px 25px 25px 400px"  // sets the top, botttom, right and left margins
+            document.getElementById("dt").innerHTML = new Date();
+        </script>
+        <img class="mooimg" src="Images/MooMoo.jpg" alt="Picture of a Highland Cow" />
+
+        <p class="textfooter">
+            Our activities are very popular with youth groups including Scouts and Guides.
+
+        </p>
+
+        <p class="textfooter">
+            To book your next adventure at Lochquarry, please phone 01475 229 8311.
+        </p>
+        <img class="imgheader" src="Images/Header.jpg" alt="Lochquarry Header" />
+    </div> <!-- End of Footer -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="CSS/mainstyle.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/MenuBar.css" type="text/css" rel=" stylesheet" />
+    <link href="CSS/PictFormat.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/TextFormat.css" type="text/css" rel="stylesheet" />
+
+    <title>LochQuarry</title>
+
+</head>
+<body>
+    <img class="imgheader" src="Images/Header.jpg" alt="Lochuarry Header" />
+    <div class="container">
+        <div class="header">
+            < <div class="dropdown">
+                <a href="index.html">Home</a>
+                <a href="StaffDetails.html">Staff Details </a>
+                <button onclick="myFunction()" class="dropbtn">
+                    <!-- when the user clicks on activities -->
+                    Activities                                  <!-- the javscript funiction is called -->
+                </button>                                       <!-- to display dropdown menu -->
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="LandBased.html">Land Based</a>
+                    <a href="WaterBased.html">Water Based</a>
+                    <a href="RopeBased.html">Rope Based</a>
+                </div>
+                <a href="CustomerFeedback.html">Customer Feedback</a>
+            </div>
+
+            <h1> Rope Based Activities</h1>
+
+            <script>
+                function myFunction() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
+                // the function displays a drodown menu whe the Activities link is clicked
+                // this procedure checks if the user has clicked outside the dropdown menu and closes it
+                window.onclick = function (event) {
+                    if (!event.target.matches('.dropbtn')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+            </script>
+        </div> <!-- end header-->
+
+        <div class="content">
+            <img class="custpict" src="Images/beech.jpg" alt="Picture of a beach" />
+
+            <h2 class=" ropeheading"> Climbing</h2>
+            <img class="ropepicr" src="Images/Climbing_2.jpg" alt="Picture of people mountain climbing" />
+            <p class="ropetext">
+                Scale the highs of one of the local quarry slabs.
+                <br /> Max group size 8. Ages 8+
+            </p>
+
+            <h2 class="ropeheading"> Abseiling </h2>
+            <img class="ropepicr" src="Images/Abseiling.jpg" alt="Picture of Abseiling" />
+            <p class="ropetext">
+                Take the scary step and abseil from the top of one of the local quarry slabs. There is a lovely view... if you are brave enough to look down!
+                <br />Max group size 8. Ages 8+
+            </p>
+
+            <h2 class="ropeheading"> Pole Climb </h2>
+            <img class="ropepicr" src="Images/PoleClimb.jpg" alt="Picture of Pole Climbing" />
+            <p class="ropetext">
+                Ever wondered how telephone engineers get to the top of the telephone poles? Well, here’s your chance to find out.
+                <br />Group size 8. Ages 8+
+            </p>
+
+        </div>
+
+        <div class="footer">
+            <!-- Start of Footer-->
+            <p id="dt"></p>
+            <script>
+                document.getElementById("dt").style.margin = "25px 25px 25px 400px"  // sets the top, botttom, right and left margins
+                document.getElementById("dt").innerHTML = new Date();  // displays the current time and date
+            </script>
+        <img class="mooimg" src="Images/MooMoo.jpg" alt="Picture of a Highland Cow" />
+
+            <p class="textfooter">
+                Our activities are very popular with youth groups including Scouts and Guides.
+
+            </p>
+
+            <p class=" textfooter">
+                To book your next adventure at Lochquarry, please phone 01475 229 8311.
+            </p>
+            <img class="imgheader" src="Images/Header.jpg" alt="Lochquarry Header" />
+        </div> <!-- End of Footer -->
+    </div>
+
+</body>
+</html>

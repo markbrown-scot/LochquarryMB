@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="CSS/mainstyle.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/MenuBar.css" type="text/css" rel=" stylesheet" />
+    <link href="CSS/PictFormat.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/TextFormat.css" type="text/css" rel="stylesheet" />
+
+    <title>LochQuarry</title>
+
+</head>
+<body>
+    <img class="imgheader" src="Images/Header.jpg" alt="Lochuarry Header" />
+    <div class="container">
+        <div class="header">
+            < <div class="dropdown">
+                <a href="index.html">Home</a>
+                <a href="StaffDetails.html">Staff Details </a>
+                <button onclick="myFunction()" class="dropbtn">
+                    <!-- when the user clicks on activities -->
+                    Activities                                  <!-- the javscript funiction is called -->
+                </button>                                       <!-- to display dropdown menu -->
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="LandBased.html">Land Based</a>
+                    <a href="WaterBased.html">Water Based</a>
+                    <a href="RopeBased.html">Rope Based</a>
+                </div>
+                <a href="CustomerFeedback.html">Customer Feedback</a>
+            </div>
+            <h1>Water Based Activities</h1>
+
+            <script>
+                function myFunction() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
+                // the function displays a drodown menu whe the Activities link is clicked
+                // this procedure checks if the user has clicked outside the dropdown menu and closes it
+                window.onclick = function (event) {
+                    if (!event.target.matches('.dropbtn')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+            </script>
+        </div>  <!--End of Header-->
+
+        <div class="content">
+            <!-- displays the main content of water based activities-->
+            <img class="custpict" src="Images/beech.jpg" alt="Picture of a beach" />
+
+            <h2 class="waterheading"> Kayaking</h2>
+            <img class="waterpicr" src="Images/Kayak.jpg" alt="Picture of a pair Kayaking" />
+            <p class="watertext">
+                Have a go at paddling, rolling and rafting in one of our brand new kayaks.
+                <br />Max group size 8. Ages 8+
+            </p>
+
+            <h2 class="waterheading"> Canoeing</h2>
+            <img class="waterpicr" src="Images/kayaking.jpg" alt="Picture of a person canoing" />
+            <p class="watertext">
+                Work single-handedly or in pairs to canoe the length of Lochquarry. You can even  take a picnic with you and explore some of the Loch’s islands.
+                <br /> Max group size 8 boats (up to 16 people). Ages 6+
+            </p>
+
+            <h2 class="waterheading"> Powerboating</h2>
+            <img class="waterpicr" src="Images/Powerboating_2.jpg" alt="Picture of Powerboating" />
+            <p class="watertext">
+                Take control of one of the Centre’s two RIBs out on Lochquarry and try your hand
+                powerboating.
+                <br /> Max group size 6. Ages 12+
+            </p>
+
+        </div> <!--end of content-->
+
+        <div class="footer">
+            <!-- Start of Footer-->
+            <p id="dt"></p>
+            <script>
+                document.getElementById("dt").style.margin = "25px 25px 25px 400px"  // sets the top, botttom, right and left margins
+                document.getElementById("dt").innerHTML = new Date();  // displays the current time and date
+            </script>
+        <img class="mooimg" src="Images/MooMoo.jpg" alt="Picture of a Highland Cow" />
+
+            <p class="textfooter">
+                Our activities are very popular with youth groups including Scouts and Guides.
+
+            </p>
+
+            <p class=" textfooter">
+                To book your next adventure at Lochquarry, please phone 01475 229 8311.
+            </p>
+            <img class="imgheader" src="Images/Header.jpg" alt="Lochquarry Header" />
+        </div> <!-- End of Footer -->
+    </div>
+</body>
+</html>

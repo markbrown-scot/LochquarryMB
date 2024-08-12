@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        -->
+    <link href="CSS/mainstyle.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/MenuBar.css" type="text/css" rel=" stylesheet" />
+    <link href="CSS/PictFormat.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/TextFormat.css" type="text/css" rel="stylesheet" />
+
+    <title>LochQuarry</title>
+
+</head>
+<body>
+    <img class="imgheader" src="Images/Header.jpg" alt="Lochquarry Header" />
+    <div class="container"> <!-- Page layout structure-->
+        <div class="header">
+            <div class="dropdown">
+                <a href="index.html">Home</a>
+                <a href="StaffDetails.html">Staff Details </a>
+                <button onclick="myFunction()" class="dropbtn">
+                    <!-- when the user clicks on activities -->
+                    Activities                                  <!-- the javscript funiction is called -->
+                </button>                                       <!-- to display dropdown menu -->
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="LandBased.html">Land Based</a>
+                    <a href="WaterBased.html">Water Based</a>
+                    <a href="RopeBased.html">Rope Based</a>
+                </div>
+                <a href="CustomerFeedback.html">Customer Feedback</a>
+            </div>
+
+            <h1> Our Staff</h1>
+            <script>
+                function myFunction() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
+                // the function displays a drodown menu whe the Activities link is clicked
+                // this procedure checks if the user has clicked outside the dropdown menu and closes it
+                window.onclick = function (event) {
+                    if (!event.target.matches('.dropbtn')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }</script>
+
+        </div> <!-- end of header-->
+        <div class="content">
+            <!-- displays the main content of the page-->
+            <img class="custpict" src="Images/beech.jpg" alt="Picture of a beach" />
+
+            <p class="stafftext">
+                Each activity is run under the instruction of one of our highly trained staff and all safety
+                equipment is provided. Let’s meet some of the Lochquarry staff:
+            </p>
+            <br/>
+            <img class="staffimgr" src="Images/Claire_Jack.jpeg" alt="Picture of Claire Jack" />
+            <p class="stafftext">
+                Name: Claire Jack <br />
+                Position: Centre Manager <br />
+                Responsible for: The overall running of the centre and all of its activities <br />
+                Favourite Activity: Pole climb
+            </p>
+            <img class="staffimgr" src="Images/Robbie_Elliot.jpeg" alt="Picture of Robbie Elliot" />
+            <p class="stafftext">
+                Name: Robbie Elliot<br />
+                Position: Senior Instructor (Land) <br />
+                Responsible for: Overseeing all of the land based activities <br />
+                Favourite Activity: Hillwalking in the beautiful Scottish highlands
+            </p>
+            <img class="staffimgr" src="Images/Marion_Hunter.jpg" alt="Picture of Marion Hunter" />
+            <p class="stafftext">
+                Name: Marion Hunter <br />
+                Position: Centre Administrator <br />
+                Responsible for: Making bookings and arranging activity slots for groups <br />
+                Favourite Activity: Making sure everyone has a great time when the visit
+                Lochquarry
+            </p>
+        </div>  <!-- end of main page content-->
+
+    <div class="footer">
+        <!-- Start of Footer-->
+        <p id="dt"></p>
+        <img class="mooimg" src="Images/MooMoo.jpg" alt="Picture of a Highland Cow" />
+        <script>
+            document.getElementById("dt").style.margin = "25px 25px 25px 400px"  // sets the top, botttom, right and left margins
+            document.getElementById("dt").innerHTML = new Date();  // displays the current time and date
+        </script>
+        <p class="textfooter">
+            Our activities are very popular with youth groups including Scouts and Guides.
+
+        </p>
+
+        <p class="textfooter">
+            To book your next adventure at Lochquarry, please phone 01475 229 8311.
+        </p>
+        <img class="imgheader" src="Images/Header.jpg" alt="Lochquarry Header" />
+    </div> <!-- End of Footer -->
+  </div> <!-- End of page layout-->   
+ 
+</body>
+                
+</html>

@@ -1,0 +1,64 @@
+﻿/* Dropdown Button */
+.dropbtn {
+    font-family: fonts/Kanit-Black;
+    background-color: transparent;
+    color: black;
+    padding: 16px;
+    font-size: 18pt;
+    text-decoration:underline;
+    border: none;
+    cursor: pointer;
+    
+}
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: lavenderblush;
+    }
+
+    
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: auto;
+}
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: inline-block;
+    }
+    /* Change color of dropdown links on hover */
+     .dropdown-content a:hover {
+            background-color: green;
+     }
+
+        
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display: block;
+}
+a {
+    font-family: fonts/Kanit-Black;
+    font-size: 18pt;
+    margin: 250px, 350px, 250px, 350px;
+    position: center;
+    color: black;
+    padding: 15px;
+}
+a:visited{
+    color:purple;
+}

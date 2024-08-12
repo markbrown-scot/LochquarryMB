@@ -1,0 +1,110 @@
+﻿.landpicr {
+    display: block;
+    float: right;
+    padding: 10px;
+    margin-left:5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    width: 225px;
+    height: 175px;
+    aspect-ratio: auto;
+    padding-right:25px;
+    padding-bottom:5px;
+    padding-top:5px;
+    padding-left: 25px
+}
+.waterpicr {
+    display: block;
+    float: right;
+    padding:10px;
+    margin-top: 0px;
+    margin-left: 400px;
+    margin-right: 5px;
+    margin-bottom: auto;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    width: 200px;
+    height: 150px;
+    aspect-ratio: auto;
+}
+
+.ropepicr {
+    display: block;
+    float: right;
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 400px;
+    margin-right: 5px;
+    margin-bottom: auto;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    width: 200px;
+    height: 150px;
+    aspect-ratio: auto;
+   }
+
+.custpict {
+    display: block;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 875px;
+    aspect-ratio: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.custpictr {
+    display: inline-block;
+    float: right;
+    width: 350px;
+    height: 875px;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+/*Staff pictures formatting*/
+.staffimgr {
+    display: block;
+    float: right;
+    margin-top:25px;
+    margin-left: 5px;
+    margin-right: 25px;
+    margin-bottom:5px;
+    width: 175px;
+    height: 175px;
+    aspect-ratio: auto;
+    padding-top:5px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* header and footer formating*/
+.imgheader {
+    width: 100%;
+    margin-left:0;
+    margin-right:auto;
+    position: relative;
+    padding-block: 200px, 200px;
+}
+.mooimg {
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: 50px;
+    width: 100px;
+    height: 100px;
+    aspect-ratio: auto;
+   
+}
